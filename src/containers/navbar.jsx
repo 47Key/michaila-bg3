@@ -5,7 +5,7 @@ import React from 'react'
 export const Navbar = () => {
     return (
         <header>
-            <nav className="w-screen px-4 py-2.5">
+            <nav className="w-screen px-4 pt-2.5">
                 <div className="w-full flex flex-wrap justify-between items-center">
                     <Link href="/" className="flex items-center">
                         <Image src="/bg3-logo.png" width={50} height={50} alt="Michaila's Baldur's Gate 3 Logo" />
