@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const Navbar = () => {
@@ -6,9 +7,9 @@ export const Navbar = () => {
         <header>
             <nav className="w-screen px-4 py-2.5">
                 <div className="w-full flex flex-wrap justify-between items-center">
-                    <a href="/" className="flex items-center">
+                    <Link href="/" className="flex items-center">
                         <Image src="/bg3-logo.png" width={50} height={50} alt="Michaila's Baldur's Gate 3 Logo" />
-                    </a>
+                    </Link>
                     <div className="flex items-center lg:order-2">
                         <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg hover:text-black hover:bg-white focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                             <span className="sr-only">Open main menu</span>
@@ -19,13 +20,13 @@ export const Navbar = () => {
                     <div className="hidden justify-between items-center w-full lg:w-auto lg:order-1" id="mobile-menu-2">
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li>
-                                <a href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 hover:text-black">Events</a>
+                                <Link href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 hover:text-black">Events</Link>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 hover:text-black">Discord</a>
+                                <Link href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 hover:text-black">Discord</Link>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 hover:text-black">About</a>
+                                <Link href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 hover:text-black">About</Link>
                             </li>
                         </ul>
                     </div>

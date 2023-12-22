@@ -8,7 +8,7 @@ export const Hero = () => {
                 <div className="text-center">
                     <div>
                         <h2 className="text-6xl font-extrabold leading-none tracking-tight text-white sm:text-5xl lg:text-6xl">
-                            The Baldur'&apos;s Games 
+                            The Baldur&apos;s Games 
                         </h2>
                         <span className="md:block">By Michaila &hearts;</span>
                         <p
