@@ -11,7 +11,7 @@ import backgroundImage from '../../public/medieval-bg.jpeg';
 
 export default function Home() {
   return (
-    <main style={{ backgroundImage: `url('${backgroundImage.src}')` }} className={`flex min-h-screen min-w-screen flex-col items-center justify-between bg-no-repeat bg-fixed bg-center bg-blend-overlay bg-cover bg-gray-900 ${inter.className}`}>
+    <main style={{ backgroundImage: `url('${backgroundImage.src}')` }} className={`flex min-h-screen min-w-screen flex-col items-center justify-between bg-no-repeat bg-fixed bg-center bg-blend-overlay bg-cover bg-gray-600 ${inter.className}`}>
       <Navbar />
       <Hero />
       <Features />
