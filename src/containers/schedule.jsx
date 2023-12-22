@@ -375,7 +375,7 @@ export const Schedule = () => {
                                 14:00 - 15:00
                             </span>
                             <h4 className="text-xl font-bold text-white">
-                                <a href="#" className="hover:underline">Crafting Captivating Game Narratives: A Writer's Workshop</a>
+                                <a href="#" className="hover:underline">Crafting Captivating Game Narratives: A Writer&apos;s Workshop</a>
                             </h4>
                             <div className="flex items-center gap-3">
                                 <img className="object-cover w-12 h-12 rounded-full shrink-0"
