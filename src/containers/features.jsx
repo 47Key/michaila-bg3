@@ -41,7 +41,7 @@ export const Features = () => {
                             </svg>
                         </div>
                         <h3 class="mb-4 text-2xl font-bold text-white">Community Support & Friendships</h3>
-                        <p class="mx-5 mb-4 text-white">Build lasting friendships and find a supportive network of gamers. Our server is not just about playing; it's a place to discuss, laugh, and share moments with like-minded enthusiasts of Baldur&apos;s Gate 3.</p>
+                        <p class="mx-5 mb-4 text-white">Build lasting friendships and find a supportive network of gamers. Our server is not just about playing; it&apos;s a place to discuss, laugh, and share moments with like-minded enthusiasts of Baldur&apos;s Gate 3.</p>
                     </div>
                 </div>
             </div>
